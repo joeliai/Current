@@ -1,0 +1,48 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Xcode per-user state; keep shared project settings and schemes
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Build outputs and caches
+.build/
+build/
+DerivedData/
+*.app/
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.dSYM.zip
+
+# Test results, profiling, and local diagnostics
+TestResults/
+artifacts/
+*.xcresult/
+*.xcactivitylog
+*.trace/
+*.profraw
+*.profdata
+*.log
+
+# Local signing credentials and provisioning profiles
+*.p8
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.pfx
+*.pem
+*.key
+
+# Local account settings and exported app data
+*.local.xcconfig
+.env
+.env.*
+!.env.example
+*.xcappdata/
+Current-readings.json
+Current-session.json
+sessions-v1.json

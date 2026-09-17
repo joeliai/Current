@@ -1,0 +1,26 @@
+included:
+  - Current
+  - CurrentTests
+  - CurrentUITests
+excluded:
+  - Current/Resources
+disabled_rules:
+  - trailing_comma
+  - function_body_length
+  - type_body_length
+  - file_length
+  - opening_brace
+line_length:
+  warning: 150
+  error: 240
+identifier_name:
+  min_length: 2
+  excluded:
+    - id
+    - x
+    - y
+type_name:
+  max_length: 60
+cyclomatic_complexity:
+  warning: 15
+  error: 25
