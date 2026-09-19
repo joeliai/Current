@@ -5,10 +5,8 @@ Current shows USB charging power, battery temperature, and charging history on i
 Requires iOS 26 or later. Power readings need a wired connection.
 
 <p align="center">
-  <img src="docs/screenshots/charging-dashboard.png" alt="Current charging dashboard in light mode on an iPhone simulator" width="360">
+  <img src="docs/screenshots/charging-dashboard.jpg" alt="Current charging dashboard on iPhone showing live USB input power and the charging curve" width="360">
 </p>
-
-*Simulator preview. Live power and temperature readings require a physical device.*
 
 ## Features
 
